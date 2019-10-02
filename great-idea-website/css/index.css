@@ -171,31 +171,51 @@ footer {
 
 * {
     box-sizing: border-box;
-    margin: 30px;
-    width: auto;
-    margin-left: 15%;
-    margin-right: 10%;
 }
 
-nav a {
+nav {
+    display: inline-block;
     margin: 10px;
     background-color: lightgrey;
 }
 
 h1 {
-    font-size: 80px;
-    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    max-width: 50px;
+}
+
+.center {
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
 }
 
 div {
-    position: relative;
+    box-sizing: border-box;
     border: 2px solid grey;
 }
 
-.firstImg {
-    width: 500px;
+.container {
+    padding: 3%;
+    display: inline-block;
 }
 
-.logo {}
+.firstImg {
+    width: 52%;
+}
 
-#about {}
+.middle-img {
+    display: block;
+    border-image-width: 100%;
+}
+
+.half {
+    max-width: 48%;
+    align-content: center;
+}
+
+.third {
+    max-width: 32.5%;
+    align-content: center;
+}
